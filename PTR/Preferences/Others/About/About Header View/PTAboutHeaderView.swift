@@ -10,7 +10,6 @@ import UIKit
 import GSKStretchyHeaderView
 
 class PTAboutHeaderView: UIView {
-
     
     @IBOutlet weak var mainStackView: UIStackView!
     @IBOutlet weak var iconBackgroundView: PTRoundedView!

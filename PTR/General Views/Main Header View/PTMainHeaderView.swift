@@ -9,8 +9,6 @@
 import UIKit
 import GSKStretchyHeaderView
 
-
-
 class PTMainHeaderView: GSKStretchyHeaderView {
     
     let maxFontSize: CGFloat = 35

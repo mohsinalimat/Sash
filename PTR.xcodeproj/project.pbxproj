@@ -467,19 +467,19 @@
 		E404C0C72158C5AD005CAFF4 /* PTR */ = {
 			isa = PBXGroup;
 			children = (
-				E4CA6F7A21FB47AB0028CC04 /* OnBoarding */,
 				E4CA6F8021FB57540028CC04 /* Base */,
+				E404C2262158C7F0005CAFF4 /* Controllers */,
+				E4CA6F7A21FB47AB0028CC04 /* OnBoarding */,
 				E4CA6F7D21FB57130028CC04 /* Today */,
 				E4CA6F7E21FB57230028CC04 /* Calendar */,
 				E4CA6F7921FB474C0028CC04 /* Preferences */,
 				E4CA6F7C21FB56AA0028CC04 /* Selection */,
-				E404C2332158C7F0005CAFF4 /* Model */,
 				E4CA6F7721FB46FC0028CC04 /* Reminder Details */,
 				E4CA6F7621FB46CC0028CC04 /* New Reminder */,
+				E404C2332158C7F0005CAFF4 /* Model */,
+				E404C2DF2158CE32005CAFF4 /* General Views */,
 				E404C1F02158C7F0005CAFF4 /* Extensions */,
 				E404C2512158C7F1005CAFF4 /* Constants */,
-				E404C2262158C7F0005CAFF4 /* Controllers */,
-				E404C2DF2158CE32005CAFF4 /* Views */,
 				E404C2E02158CE4C005CAFF4 /* Resources */,
 			);
 			path = PTR;
@@ -530,26 +530,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		E404C2062158C7F0005CAFF4 /* CollectionView Cells */ = {
-			isa = PBXGroup;
-			children = (
-				E404C2072158C7F0005CAFF4 /* PTCalendarCollectionViewCell.swift */,
-				E404C2082158C7F0005CAFF4 /* PTCollectionCardCollectionViewCell.swift */,
-			);
-			path = "CollectionView Cells";
-			sourceTree = "<group>";
-		};
-		E404C20B2158C7F0005CAFF4 /* TableView Cells */ = {
-			isa = PBXGroup;
-			children = (
-				E404C20C2158C7F0005CAFF4 /* PTReminderTableViewCell.swift */,
-				E404C20D2158C7F0005CAFF4 /* PTSelectableTableViewCell.swift */,
-				E4C4B534215B36AC002255BB /* PTValueAdjustmentTableViewCell.swift */,
-				E4299CCA215E237700F421B2 /* PTSwitchTableViewCell.swift */,
-			);
-			path = "TableView Cells";
-			sourceTree = "<group>";
-		};
 		E404C2102158C7F0005CAFF4 /* General Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,7 +539,6 @@
 				E404C2152158C7F0005CAFF4 /* PTGradientView.swift */,
 				E404C2162158C7F0005CAFF4 /* PTBackgroundView.swift */,
 				E404C2182158C7F0005CAFF4 /* PTRoundedView.swift */,
-				E404C2092158C7F0005CAFF4 /* PTSectionHeaderView.swift */,
 				E46720C7215B787800181605 /* PTCloseButton.swift */,
 				E467F3F2217076D200B650FA /* PTBackButton.swift */,
 			);
@@ -680,17 +659,15 @@
 			path = "Apperance Constants";
 			sourceTree = "<group>";
 		};
-		E404C2DF2158CE32005CAFF4 /* Views */ = {
+		E404C2DF2158CE32005CAFF4 /* General Views */ = {
 			isa = PBXGroup;
 			children = (
-				E404C20A2158C7F0005CAFF4 /* PTRemindersTableView.swift */,
-				E4A69DAF21D6E441002A0C75 /* Headers */,
-				E4F6DF0A22041A1900D3D00B /* XIB */,
-				E404C2062158C7F0005CAFF4 /* CollectionView Cells */,
-				E404C20B2158C7F0005CAFF4 /* TableView Cells */,
+				E410E53E22095E8E004EB95B /* Main Header View */,
+				E410E53A22095E5F004EB95B /* Section Header */,
+				E410E53F22095E9D004EB95B /* Reminders */,
 				E404C2102158C7F0005CAFF4 /* General Views */,
 			);
-			path = Views;
+			path = "General Views";
 			sourceTree = "<group>";
 		};
 		E404C2E02158CE4C005CAFF4 /* Resources */ = {
@@ -707,6 +684,132 @@
 				E467F3ED2170733E00B650FA /* Localizable.stringsdict */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E410E53622095D80004EB95B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E410E53D22095E83004EB95B /* Reminders Header View */,
+				E410E54022095EC0004EB95B /* Collection Card CollectionView Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E410E53722095D9E004EB95B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49FEEEA21609D5700B9A180 /* PTCalendarView.swift */,
+				E404C2072158C7F0005CAFF4 /* PTCalendarCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E410E53822095DEA004EB95B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E410E54322095EFC004EB95B /* SwitchTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E410E53922095E3E004EB95B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E410E53C22095E7B004EB95B /* Selection Header View */,
+				E410E54122095ED9004EB95B /* SelectableTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E410E53A22095E5F004EB95B /* Section Header */ = {
+			isa = PBXGroup;
+			children = (
+				E4F6DF0B22041A1900D3D00B /* PTSectionHeaderView.xib */,
+				E404C2092158C7F0005CAFF4 /* PTSectionHeaderView.swift */,
+			);
+			path = "Section Header";
+			sourceTree = "<group>";
+		};
+		E410E53B22095E73004EB95B /* About Header View */ = {
+			isa = PBXGroup;
+			children = (
+				E47760B921E1E60400AAC453 /* PTAboutHeaderView.swift */,
+				E4F6DF1122041A1900D3D00B /* PTAboutHeaderView.xib */,
+			);
+			path = "About Header View";
+			sourceTree = "<group>";
+		};
+		E410E53C22095E7B004EB95B /* Selection Header View */ = {
+			isa = PBXGroup;
+			children = (
+				E4A69DB021D6E453002A0C75 /* PTSelectionHeaderView.swift */,
+				E4F6DF1422041A1900D3D00B /* PTSelectionHeaderView.xib */,
+			);
+			path = "Selection Header View";
+			sourceTree = "<group>";
+		};
+		E410E53D22095E83004EB95B /* Reminders Header View */ = {
+			isa = PBXGroup;
+			children = (
+				E4A69DAB21D665B6002A0C75 /* PTRemindersHeaderView.swift */,
+				E4F6DF1222041A1900D3D00B /* PTRemindersHeaderView.xib */,
+			);
+			path = "Reminders Header View";
+			sourceTree = "<group>";
+		};
+		E410E53E22095E8E004EB95B /* Main Header View */ = {
+			isa = PBXGroup;
+			children = (
+				E4A69DA721D6629B002A0C75 /* PTMainHeaderView.swift */,
+				E4F6DF1322041A1900D3D00B /* PTMainHeaderView.xib */,
+			);
+			path = "Main Header View";
+			sourceTree = "<group>";
+		};
+		E410E53F22095E9D004EB95B /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				E404C20A2158C7F0005CAFF4 /* PTRemindersTableView.swift */,
+				E404C20C2158C7F0005CAFF4 /* PTReminderTableViewCell.swift */,
+				E4F6DF0D22041A1900D3D00B /* PTReminderTableViewCell.xib */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		E410E54022095EC0004EB95B /* Collection Card CollectionView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E404C2082158C7F0005CAFF4 /* PTCollectionCardCollectionViewCell.swift */,
+				E4F6DF0E22041A1900D3D00B /* PTCollectionCardCollectionViewCell.xib */,
+			);
+			path = "Collection Card CollectionView Cell";
+			sourceTree = "<group>";
+		};
+		E410E54122095ED9004EB95B /* SelectableTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E404C20D2158C7F0005CAFF4 /* PTSelectableTableViewCell.swift */,
+				E4F6DF0C22041A1900D3D00B /* PTSelectableTableViewCell.xib */,
+			);
+			path = SelectableTableViewCell;
+			sourceTree = "<group>";
+		};
+		E410E54222095EED004EB95B /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E404C21B2158C7F0005CAFF4 /* PTAboutViewController.swift */,
+				E410E53B22095E73004EB95B /* About Header View */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		E410E54322095EFC004EB95B /* SwitchTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E4299CCA215E237700F421B2 /* PTSwitchTableViewCell.swift */,
+				E4F6DF0F22041A1900D3D00B /* PTSwitchTableViewCell.xib */,
+			);
+			path = SwitchTableViewCell;
 			sourceTree = "<group>";
 		};
 		E422A15221673EF4008BC622 /* Notification */ = {
@@ -737,17 +840,6 @@
 				E48951AC21EB6D4300906D0C /* PrayerTimes+Adhan.swift */,
 			);
 			path = "Prayer Times";
-			sourceTree = "<group>";
-		};
-		E4A69DAF21D6E441002A0C75 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				E4A69DA721D6629B002A0C75 /* PTMainHeaderView.swift */,
-				E4A69DAB21D665B6002A0C75 /* PTRemindersHeaderView.swift */,
-				E4A69DB021D6E453002A0C75 /* PTSelectionHeaderView.swift */,
-				E47760B921E1E60400AAC453 /* PTAboutHeaderView.swift */,
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 		E4AE576822055AEB00974EC8 /* Location Selection */ = {
@@ -790,6 +882,7 @@
 				E404C2222158C7F0005CAFF4 /* PTPreferencesViewController.swift */,
 				E48951A221EB20F800906D0C /* PreferenceKeys.swift */,
 				E404C25F2158C7F1005CAFF4 /* PTPreferencesDataSource.swift */,
+				E410E53822095DEA004EB95B /* Views */,
 				E4CA6F7F21FB57330028CC04 /* Others */,
 			);
 			path = Preferences;
@@ -815,11 +908,12 @@
 			isa = PBXGroup;
 			children = (
 				E404C1FE2158C7F0005CAFF4 /* PTSelectablesViewController.swift */,
-				E404C2402158C7F0005CAFF4 /* Selectable.swift */,
 				E404C22C2158C7F0005CAFF4 /* PTSelectionSession.swift */,
 				E404C2652158C7F1005CAFF4 /* PTSelectablesDataSource.swift */,
 				E404C2662158C7F1005CAFF4 /* PTOptionsDataSource.swift */,
 				E404C2422158C7F0005CAFF4 /* PTOption.swift */,
+				E404C2402158C7F0005CAFF4 /* Selectable.swift */,
+				E410E53922095E3E004EB95B /* Views */,
 			);
 			path = Selection;
 			sourceTree = "<group>";
@@ -833,6 +927,7 @@
 				E404C2622158C7F1005CAFF4 /* PTCollectionsDataSource.swift */,
 				E404C2602158C7F1005CAFF4 /* PTRemindersDataSource.swift */,
 				E4E75FD52160A3480066B334 /* PTTodayCollectionView.swift */,
+				E410E53622095D80004EB95B /* Views */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -844,7 +939,7 @@
 				E404C2232158C7F0005CAFF4 /* PTCalendarViewController.swift */,
 				E404C21D2158C7F0005CAFF4 /* PTDayRemindersViewController.swift */,
 				E404C2612158C7F1005CAFF4 /* PTDayRemindersDataSource.swift */,
-				E49FEEEA21609D5700B9A180 /* PTCalendarView.swift */,
+				E410E53722095D9E004EB95B /* Views */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -852,9 +947,9 @@
 		E4CA6F7F21FB57330028CC04 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				E410E54222095EED004EB95B /* About */,
 				E4CA6F8121FC644A0028CC04 /* Acknowledgments */,
 				E4CA6F8221FC645E0028CC04 /* Prayer Adjustments */,
-				E404C21B2158C7F0005CAFF4 /* PTAboutViewController.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -885,6 +980,8 @@
 			children = (
 				E4C4B532215B3683002255BB /* PTPrayerAdjustmentsDataSource.swift */,
 				E4C4B530215B357E002255BB /* PTPrayerAdjustmentsViewController.swift */,
+				E4C4B534215B36AC002255BB /* PTValueAdjustmentTableViewCell.swift */,
+				E4F6DF1522041A1900D3D00B /* PTValueAdjustmentTableViewCell.xib */,
 			);
 			path = "Prayer Adjustments";
 			sourceTree = "<group>";
@@ -899,31 +996,6 @@
 				E4F6DB0D21E67D4500769240 /* NotoSansArabicUI-Black.ttf */,
 			);
 			path = "NotoSansArabicUI Font";
-			sourceTree = "<group>";
-		};
-		E4F6DF0A22041A1900D3D00B /* XIB */ = {
-			isa = PBXGroup;
-			children = (
-				E4F6DF0B22041A1900D3D00B /* PTSectionHeaderView.xib */,
-				E4F6DF0C22041A1900D3D00B /* PTSelectableTableViewCell.xib */,
-				E4F6DF0D22041A1900D3D00B /* PTReminderTableViewCell.xib */,
-				E4F6DF0E22041A1900D3D00B /* PTCollectionCardCollectionViewCell.xib */,
-				E4F6DF0F22041A1900D3D00B /* PTSwitchTableViewCell.xib */,
-				E4F6DF1522041A1900D3D00B /* PTValueAdjustmentTableViewCell.xib */,
-				E4F6DF1022041A1900D3D00B /* Headers */,
-			);
-			path = XIB;
-			sourceTree = "<group>";
-		};
-		E4F6DF1022041A1900D3D00B /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				E4F6DF1122041A1900D3D00B /* PTAboutHeaderView.xib */,
-				E4F6DF1222041A1900D3D00B /* PTRemindersHeaderView.xib */,
-				E4F6DF1322041A1900D3D00B /* PTMainHeaderView.xib */,
-				E4F6DF1422041A1900D3D00B /* PTSelectionHeaderView.xib */,
-			);
-			path = Headers;
 			sourceTree = "<group>";
 		};
 		F4B1E03CFE5FDCABC63AA82A /* Pods */ = {
