@@ -1,0 +1,6 @@
+framework module Pods_PTR {
+  umbrella header "Pods-PTR-umbrella.h"
+
+  export *
+  module * { export * }
+}

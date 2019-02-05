@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bLg-cO-SJm">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="10000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="C0E-tL-Vzh">
+            <objects>
+                <tabBarController storyboardIdentifier="PTTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bLg-cO-SJm" customClass="PTTabBarController" customModule="PTR" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="NUt-eo-vPG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="reP-cg-DiE" kind="relationship" relationship="viewControllers" id="SPk-Bc-Qb4"/>
+                        <segue destination="0l0-Ji-ylU" kind="relationship" relationship="viewControllers" id="uXG-UE-msQ"/>
+                        <segue destination="xfq-yV-J98" kind="relationship" relationship="viewControllers" id="8f0-9s-KnZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R7i-Vn-UwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1218" y="133"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="fmI-cE-lB7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="reP-cg-DiE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="Ka5-XP-T8S"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uG6-lB-tO6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="-158"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="LNa-Qw-pDq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calendar" id="0l0-Ji-ylU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calendar" id="VIL-w3-8ap"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cm7-0W-tcq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-483" y="32"/>
+        </scene>
+        <!--Preferences-->
+        <scene sceneID="KXn-TL-aWx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Preferences" id="xfq-yV-J98" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Preferences" id="Q9O-vz-KQT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CuI-eO-iDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-513" y="205"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

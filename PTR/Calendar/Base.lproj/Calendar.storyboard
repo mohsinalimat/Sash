@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FfU-nv-ZnV">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Data Source-->
+        <scene sceneID="BzP-nb-PYW">
+            <objects>
+                <viewController storyboardIdentifier="PTCalendarViewController" autoresizesArchivedViewToFullSize="NO" title="Calendar" extendedLayoutIncludesOpaqueBars="YES" automaticallyAdjustsScrollViewInsets="NO" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FfU-nv-ZnV" customClass="PTCalendarViewController" customModule="PTR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rxh-eR-LyJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BgT-iq-2x8">
+                                <rect key="frame" x="0.0" y="421" width="375" height="246"/>
+                                <connections>
+                                    <segue destination="qac-SG-vNO" kind="embed" id="QyS-Rh-8zR"/>
+                                </connections>
+                            </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8FH-SW-5Du" customClass="PTBackgroundView" customModule="PTR" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+                                <color key="backgroundColor" red="0.1019607843" green="0.73725490199999999" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jxy-4w-yZ1" customClass="PTCalendarView" customModule="PTR" customModuleProvider="target">
+                                <rect key="frame" x="15" y="45" width="345" height="360"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="URo-kt-CZq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleTextSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="weekdayTextSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerTitleTextSize">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="pagingEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="scrollEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsScopeHandle" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsMultipleSelection" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsSelection" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleDefaultColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
+                                        <real key="value" value="80"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderType">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showsPlaceholders" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="eventSelectionColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="eventDefaultColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="firstWeekday">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="headerHeight">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="weekdayHeight">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="subtitleTextSize">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="subtitleDefaultColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fakedSelectedDay">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="fakeEventDots" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="useVeryShortWeekdaySymbols" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FfU-nv-ZnV" id="d8j-ge-lTz"/>
+                                    <outlet property="delegate" destination="FfU-nv-ZnV" id="oe1-qJ-7w7"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r42-v3-UIp" customClass="PTPlusButton" customModule="PTR" customModuleProvider="target">
+                                <rect key="frame" x="300" y="587" width="55" height="55"/>
+                                <color key="backgroundColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="r42-v3-UIp" secondAttribute="height" multiplier="1:1" id="0Bf-8n-8VN"/>
+                                    <constraint firstAttribute="width" constant="55" id="S4z-6u-QSF"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="plusButtonTapped" destination="FfU-nv-ZnV" eventType="touchUpInside" id="77k-8R-ydA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BgT-iq-2x8" firstAttribute="top" secondItem="Jxy-4w-yZ1" secondAttribute="bottom" constant="16" id="6oQ-yR-ct1"/>
+                            <constraint firstItem="8FH-SW-5Du" firstAttribute="top" secondItem="Rxh-eR-LyJ" secondAttribute="top" id="8fJ-eY-fnz"/>
+                            <constraint firstItem="K56-8m-3yb" firstAttribute="trailing" secondItem="r42-v3-UIp" secondAttribute="trailing" constant="20" id="Ay6-TG-2qA"/>
+                            <constraint firstItem="K56-8m-3yb" firstAttribute="bottom" secondItem="r42-v3-UIp" secondAttribute="bottom" constant="25" id="PI6-0V-Fbm"/>
+                            <constraint firstItem="BgT-iq-2x8" firstAttribute="leading" secondItem="K56-8m-3yb" secondAttribute="leading" id="ReN-Jq-h8Q"/>
+                            <constraint firstItem="BgT-iq-2x8" firstAttribute="centerX" secondItem="Rxh-eR-LyJ" secondAttribute="centerX" id="S22-gW-xYI"/>
+                            <constraint firstItem="Jxy-4w-yZ1" firstAttribute="leading" secondItem="K56-8m-3yb" secondAttribute="leading" constant="15" id="S7B-Kx-GC5"/>
+                            <constraint firstItem="Jxy-4w-yZ1" firstAttribute="centerX" secondItem="K56-8m-3yb" secondAttribute="centerX" id="X1g-Kj-Wez"/>
+                            <constraint firstItem="BgT-iq-2x8" firstAttribute="bottom" secondItem="K56-8m-3yb" secondAttribute="bottom" id="c83-rn-xnY"/>
+                            <constraint firstItem="8FH-SW-5Du" firstAttribute="centerX" secondItem="Rxh-eR-LyJ" secondAttribute="centerX" id="iFe-nm-FXv"/>
+                            <constraint firstItem="8FH-SW-5Du" firstAttribute="leading" secondItem="K56-8m-3yb" secondAttribute="leading" id="n79-RZ-FJ3"/>
+                            <constraint firstItem="Jxy-4w-yZ1" firstAttribute="top" secondItem="K56-8m-3yb" secondAttribute="top" constant="25" id="uLe-fP-Lhd"/>
+                            <constraint firstItem="8FH-SW-5Du" firstAttribute="bottom" secondItem="Jxy-4w-yZ1" secondAttribute="bottom" id="xCs-lK-3OU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K56-8m-3yb"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="puQ-Fn-Gs8"/>
+                    <connections>
+                        <outlet property="calendarView" destination="Jxy-4w-yZ1" id="fIF-Kw-1Cx"/>
+                        <outlet property="containerView" destination="BgT-iq-2x8" id="6fy-tl-ElZ"/>
+                        <outlet property="headerBackgroundView" destination="8FH-SW-5Du" id="0GH-sW-x7Z"/>
+                        <outlet property="heightConstraint" destination="URo-kt-CZq" id="P7Y-dC-959"/>
+                        <outlet property="plusButton" destination="r42-v3-UIp" id="oAS-7V-Lqs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jts-1B-G6l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="132"/>
+        </scene>
+        <!--Day Reminders View Controller-->
+        <scene sceneID="PLR-ov-Xfr">
+            <objects>
+                <viewController storyboardIdentifier="DayReminders" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qac-SG-vNO" customClass="PTDayRemindersViewController" customModule="PTR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Enx-Bl-oa3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="1xo-kM-TjB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WXk-g6-kKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="calendar" width="25" height="25"/>
+    </resources>
+</document>

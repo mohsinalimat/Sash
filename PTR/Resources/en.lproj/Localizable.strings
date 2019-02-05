@@ -1,0 +1,220 @@
+/* 
+  Localizable.strings
+  PTR
+
+  Created by Hussein Al-Ryalat on 10/12/18.
+  Copyright © 2018 SketchMe. All rights reserved.
+*/
+
+
+//MARK: Tutorial
+
+"tutorial.today.first.title" = "Let's Start here!";
+"tutorial.today.first.details" = "Open the Fajr prayer to see it's reminders";
+
+"tutorial.today.second.title" = "Check out the Calendar!";
+"tutorial.today.second.details" = "There you can see the full view!";
+
+"tutorial.reminders.title" = "Tap Here!";
+"tutorial.reminders.details" = "Let's create our first Reminder ☺️";
+
+"tutorial.calendar.title" = "Swipe up to see a view of the day you've selected in the Calendar";
+
+//MARK: OnBoarding
+
+"onboarding.welcome.title" = "Welcome";
+"onboarding.welcome.description" = "Organize your life based on prayer times!";
+"onboarding.welcome.action_title" = "Get Started";
+
+"onboarding.notifications.title" = "Notifications";
+"onboarding.notifications.description" = "Would you like to get notifications for the reminders you add?";
+"onboarding.notifications.action_title" = "Enable Notifications";
+"onboarding.notifications.alternative_action_title" = "Skip";
+"onboarding.notifications.permession_denied" = "Permession Denied";
+"onboarding.notifications.authorized" = "Enable Notifications";
+
+"onboarding.location.title" = "Location";
+"onboarding.location.title_error" = "Can't Get Location!";
+"onboarding.location.description_error" = "There was an issue finding the location, please try again";
+"onboarding.location.description" = "Prayer Times are computed based on your location, so to continue, you have to enable location services";
+"onboarding.location.action.selection" = "Choose Location";
+"onboarding.location.action.permession" = "Detect Location";
+"onboarding.location.permession_denied" = "Permession Denied";
+"onboarding.location.action.fetching" = "Getting Location..";
+"onboarding.location.action.reload" = "Try Again";
+"onboarding.location.loading_description" = "Getting Location..";
+
+
+//MARK: Home Details
+
+"constants.home.title" = "Today";
+"constants.home.details" = "Next prayer is %@ at %@";
+"constants.home.details.error" = "Couldn't determine next prayer time!";
+"constants.home.details.end_of_day" = "It's the end of the day 🙈";
+
+/// MARK: Repeat Days
+
+"constants.repeatDays.none" = "Not Repeated";
+"constants.repeatDays.all" = "Daily";
+"constants.repeatDays.one" = "Repeated every %@";
+"constants.repeatDays.multiple" = "Repeated every";
+
+/// MARK: Notifications
+
+"notifications.reminders.details.before" = "%i minutes before %@";
+"notifications.reminders.details.after" = "%i minutes after %@";
+"notifications.reminders.details.immeditly" = "At %@";
+
+"notifications.reminders.actions.complete" = "Complete";
+"notifications.reminders.actions.skip" = "Skip";
+
+/// MARK: Calculation Methods
+
+"constants.method.muslimWorldLeague" = "Muslim World League";
+"constants.method.egyptian" = "Egyptian General Authority of Survey";
+"constants.method.karachi" = "University of Islamic Sciences, Karachi";
+"constants.method.ummAlQura" = "Umm al-Qura University, Makkah";
+"constants.method.gulf" = "The Gulf Region";
+"constants.method.moonsightingCommittee" = "Moonsighting Committee";
+"constants.method.northAmerica" = "ISNA";
+"constants.method.kuwait" = "Kuwait";
+"constants.method.qatar" = "Qatar";
+"constants.method.singapore" = "Singapore";
+"constants.method.other" = "Other";
+
+/// MARK: Madhabs
+
+"constants.madhab.shafi" = "Shafi";
+"constants.madhab.hanafi" = "Hanafi";
+
+/// MARK: High Latitude Rules
+
+"constants.hlr.middleOfTheNight" = "Middle of the night";
+"constants.hlr.seventhOfTheNight" = "Seventh of the night";
+"constants.hlr.twilightAngle" = "Twilight angle";
+
+// MARK: Badge Type
+
+"constants.badgeType.prayer" = "Current Prayer Time";
+"constants.badgeType.day" = "The Day";
+"constants.badgeType.none" = "None";
+
+
+/// MARK: Prayers
+
+"constant.prayers.fajr" = "Fajr";
+"constant.prayers.sunrise" = "Sunrise";
+"constant.prayers.dhuhr" = "Dhuhr";
+"constant.prayers.asr" = "Asr";
+"constant.prayers.maghrib" = "Maghrib";
+"constant.prayers.isha" = "Isha";
+
+
+/// MARK: Weekdays
+
+
+"constants.weekdays.sat" = "Saturday";
+"constants.weekdays.sun" = "Sunday";
+"constants.weekdays.mon" = "Monday";
+"constants.weekdays.tue" = "Tuesday";
+"constants.weekdays.wed" = "Wensday";
+"constants.weekdays.thu" = "Thursday";
+"constants.weekdays.fri" = "Friday";
+"constants.weekdays.all" = "Everyday";
+
+/// MARK: Shift Intervals
+
+"constants.delay.immeditly" = "Immeditly";
+"constants.delay.before" = "%@ minutes before";
+"constants.delay.after" = "%@ minutes after";
+
+
+/// MARK: Placeholders
+
+"placeholders.title" = "Looks like nothing here 👀";
+"placeholders.details" = "Why not trying to add a new task?\nJust tap the plus button in the bottom";
+
+
+/// MARK: Preferences
+
+"labels.preferences.prayerTimes" = "Prayer Times";
+"labels.preferences.location" = "Location 📍";
+"labels.preferences.adjustments" = "Prayer Adjustments 🔢";
+
+"labels.preferences.notifications" = "Notifications";
+"labels.preferences.notificationsIsEnabled" = "Enable Notifications ⏰";
+
+"labels.preferences.more" = "More";
+"labels.preferences.about" = "About ❤️";
+"labels.preferences.acknowledgements" = "Acknowledgements 🧐";
+"labels.preferences.feedback" = "Feedback 👂🙏";
+
+/// MARK: Titles
+
+"labels.titles.today" = "Today";
+"labels.titles.reminders" = "Reminders";
+"labels.titles.calendar" = "Calendar";
+
+"labels.titles.about.title" = "Sash";
+"labels.titles.about.subtitle" = "Reminders On Prayers";
+
+
+"labels.titles.preferences.title" = "Preferences";
+"labels.titles.preferences.details" = "Make the app your own 😎";
+
+"labels.titles.adjustments.title" = "Prayer Adjustments";
+"labels.titles.adjustments.details" = "Adjust the dates of the prayer times";
+
+//MARK: Acknowledgements
+
+"labels.titles.acks.title" = "Acknowledgements";
+"labels.titles.acks.icons" = "Icons";
+"labels.titles.acks.iconsDetails" = "From the Noun Project";
+"labels.titles.acks.libraries" = "Libraries";
+
+
+"labels.titles.reminderDetails.info" = "Info";
+
+
+//MARK: New Reminder
+
+"labels.titles.newReminder.title" = "New Reminder";
+"labels.titles.newReminder.details" = "What are you planning to do?";
+"labels.titles.newReminder.placeholder" = "Perhaps Nothing?";
+
+
+/// MARK: Actions
+
+"actions.contact" = "Contact";
+"actions.save" = "Save";
+
+
+/// MARK: Selection Sessions
+
+"sessions.prayer.title" = "Select Prayer";
+"sessions.prayer.details" = "At which prayer time you would like to put the reminder?";
+
+"sessions.repeatDays.title" = "Select Repeat Days";
+"sessions.repeatDays.details" = "Which days you want to repeat the reminder?";
+
+"sessions.shiftInterval.title" = "Delay";
+"sessions.shiftInterval.details" = "Optionally customize the time for the reminder";
+
+"sessions.method.title" = "Calculation Method 🗝🔑";
+"sessions.method.details" = "A method for calculating prayer times";
+
+"sessions.madhab.title" = "Madhab 👳‍♂️";
+"sessions.madhab.details" = "For determinating asr angle";
+
+"sessions.hlr.title" = "Hight Latitude Rule 🤓";
+"sessions.hlr.details" = "Rule for approximating Fajr and Isha at high latitudes";
+
+"sessions.badgeType.title" = "App Badge Count For";
+"sessions.badgeType.details" = "Badge count represents the uncompleted remidners";
+
+/// MARK: Extras
+
+"extras.smallMinutes" = "m";
+"extras.and" = "and";
+"extras.unknown" = "Unkown";
+"extras.separator" = ",";

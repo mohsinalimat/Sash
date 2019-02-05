@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CompletedCount</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@CompletedCount@</string>
+		<key>CompletedCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>Not completed yet</string>
+			<key>one</key>
+			<string>Completed one time</string>
+			<key>other</key>
+			<string>Completed %d times</string>
+		</dict>
+	</dict>
+	<key>RemindersCount</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@RemindersCount@</string>
+		<key>RemindersCount</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>No Reminders</string>
+			<key>one</key>
+			<string>One Reminder</string>
+			<key>other</key>
+			<string>%d Reminders</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

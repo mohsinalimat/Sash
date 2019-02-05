@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="18A384a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Reminder" representedClassName=".PTReminder" syncable="YES">
+        <attribute name="contents" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isArchived" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="originalDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="prayer" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="repeatDaysValue" attributeType="String" syncable="YES"/>
+        <attribute name="shiftInterval" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ReminderActivity" inverseName="reminder" inverseEntity="ReminderActivity" syncable="YES"/>
+    </entity>
+    <entity name="ReminderActivity" representedClassName=".PTReminderActivity" syncable="YES">
+        <attribute name="action" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <relationship name="reminder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Reminder" inverseName="activities" inverseEntity="Reminder" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Reminder" positionX="-243" positionY="-378" width="128" height="180"/>
+        <element name="ReminderActivity" positionX="-423" positionY="-171" width="128" height="90"/>
+    </elements>
+</model>

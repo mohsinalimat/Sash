@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>specs</key>
+	<array>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Boris Emorine</key>
+				<string>boris.emorine@gmail.com</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;BEMCheckBox lets you create check boxes for iOS.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/Boris-Em/BEMCheckBox</string>
+			<key>licenseText</key>
+			<string>The MIT License (MIT)
+
+Copyright (c) 2015 Boris Emorine.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>BEMCheckBox</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>Tastefully crafted Checkbox for iOS.</string>
+			<key>version</key>
+			<string>1.4.1</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>dzenbot</key>
+				<string>iromero@dzen.cl</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;It will work automatically, by just conforming to DZNEmptyDataSetSource, and returning the data you want to show. The -reloadData call will be observed so the empty dataset will be configured whenever needed.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/dzenbot/DZNEmptyDataSet</string>
+			<key>licenseText</key>
+			<string>The MIT License (MIT)
+
+Copyright (c) 2016 Ignacio Romero Zurbuchen iromero@dzen.cl
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &apos;Software&apos;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &apos;AS IS&apos;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>DZNEmptyDataSet</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.</string>
+			<key>version</key>
+			<string>1.8.1</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Harshil Shah</key>
+				<string>harshilshah1910@me.com</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;DeckTransition is an attempt to recreate the iOS 10 Apple Music now playing and iMessage App Store transition.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/HarshilShah/DeckTransition</string>
+			<key>licenseText</key>
+			<string>Copyright (c) 2016 Harshil Shah &lt;harshilshah1910@me.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>DeckTransition</string>
+			<key>socialMediaURL</key>
+			<string>https://twitter.com/harshilshah1910</string>
+			<key>summary</key>
+			<string>An attempt to recreate the iOS 10 now playing transition</string>
+			<key>version</key>
+			<string>2.0.0</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>ra1028</key>
+				<string>r.fe51028.r@gmail.com</string>
+			</dict>
+			<key>description</key>
+			<string>&lt;p&gt;A fast and flexible O(n) difference algorithm framework for Swift collection.
+The algorithm is optimized based on the Paul Heckel&amp;#39;s algorithm.&lt;/p&gt;
+</string>
+			<key>homepage</key>
+			<string>https://github.com/ra1028/DifferenceKit</string>
+			<key>licenseText</key>
+			<string>The MIT License (MIT)
+
+Copyright (c) 2018 ra1028
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>DifferenceKit</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>A fast and flexible O(n) difference algorithm framework for Swift collection.</string>
+			<key>version</key>
+			<string>0.5.3</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Wenchao Ding</key>
+				<string>f33chobits@gmail.com</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>homepage</key>
+			<string>https://github.com/WenchaoD/FSCalendar</string>
+			<key>licenseText</key>
+			<string>Copyright (c) 2013-2016 FSCalendar (https://github.com/WenchaoD/FSCalendar)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>FSCalendar</string>
+			<key>socialMediaURL</key>
+			<string></string>
+			<key>summary</key>
+			<string>A superiorly awesome iOS7+ calendar control, compatible with Objective-C and Swift.</string>
+			<key>version</key>
+			<string>2.7.9</string>
+		</dict>
+		<dict>
+			<key>authors</key>
+			<dict>
+				<key>Mohamed Afifi</key>
+				<string>mohamede1945@gmail.com</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>homepage</key>
+			<string>https://github.com/GenericDataSource/GenericDataSource</string>
+			<key>licenseText</key>
+			<string>Copyright (c) 2015 Mohamed Afifi &lt;mohamede1945@gmail.com&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+</string>
+			<key>licenseType</key>
+			<string>MIT</string>
+			<key>name</key>
+			<string>GenericDataSources</string>
+			<key>socialMediaURL</key>
+			<string>https://twitter.com/mohamede1945</string>
+			<key>summary</key>
+			<string>A generic small composable components for data source implementation for UITableView and UICollectionView.</string>
+			<key>version</key>
+			<string>3.0.2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

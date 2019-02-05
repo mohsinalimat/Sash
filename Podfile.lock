@@ -1,0 +1,73 @@
+PODS:
+  - AlgoliaSearch-Client-Swift (4.8.2)
+  - AYGestureHelpView (0.2.0):
+    - pop (~> 1.0)
+  - BEMCheckBox (1.4.1)
+  - DeckTransition (2.1.0)
+  - DifferenceKit (0.6.0):
+    - DifferenceKit/Core (= 0.6.0)
+    - DifferenceKit/UIKitExtension (= 0.6.0)
+  - DifferenceKit/Core (0.6.0)
+  - DifferenceKit/UIKitExtension (0.6.0):
+    - DifferenceKit/Core
+  - DZNEmptyDataSet (1.8.1)
+  - EMPageViewController (3.0.0)
+  - FSCalendar (2.7.9)
+  - GenericDataSources (3.0.3)
+  - GSKStretchyHeaderView (1.0.4)
+  - MaterialShowcase (0.6.4)
+  - pop (1.0.12)
+  - ValueStepper (1.5)
+  - ViewAnimator (2.2.2)
+
+DEPENDENCIES:
+  - AlgoliaSearch-Client-Swift (~> 4.8.1)
+  - AYGestureHelpView
+  - BEMCheckBox
+  - DeckTransition (~> 2.0)
+  - DifferenceKit (~> 0.5)
+  - DZNEmptyDataSet
+  - EMPageViewController
+  - FSCalendar
+  - GenericDataSources
+  - GSKStretchyHeaderView
+  - MaterialShowcase
+  - ValueStepper
+  - ViewAnimator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AlgoliaSearch-Client-Swift
+    - AYGestureHelpView
+    - BEMCheckBox
+    - DeckTransition
+    - DifferenceKit
+    - DZNEmptyDataSet
+    - EMPageViewController
+    - FSCalendar
+    - GenericDataSources
+    - GSKStretchyHeaderView
+    - MaterialShowcase
+    - pop
+    - ValueStepper
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  AlgoliaSearch-Client-Swift: 78f46378329dc47db5b7be8385f49c7be0ad3348
+  AYGestureHelpView: e97569713638a7bd1a6ac193c54b608fbe9c55bb
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  DeckTransition: ca707456e3d83928c895fed6f458cbf68c5cac84
+  DifferenceKit: 824ab6ecd2a20cc658071b2c0c071114cf91e4c9
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EMPageViewController: 8e0abc2b2f53f56a83044527eadbb56bd71ae3e3
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  GenericDataSources: 4e9150bd121d92ee152c5f5c5dcd15d74e609d75
+  GSKStretchyHeaderView: 9743704c12bdc9cf7c7947bad3af8bf24f7061e3
+  MaterialShowcase: afe984102c7803766ef58101f40c3a9bd1475490
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  ValueStepper: e84d21a2ce62a7975df8b222c7273d6810f7e78c
+  ViewAnimator: 6eaa112663b6a2d9e6b2573df65b416dd051cbe4
+
+PODFILE CHECKSUM: 7d54e6bea58c5b7268bbc161b17295151a60bdcd
+
+COCOAPODS: 1.6.0.beta.1

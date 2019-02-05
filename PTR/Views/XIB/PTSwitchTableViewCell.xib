@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="121" id="gWg-Gf-6W4" customClass="PTSwitchTableViewCell" customModule="PTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="494" height="121"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gWg-Gf-6W4" id="7yG-52-x1j">
+                <rect key="frame" x="0.0" y="0.0" width="494" height="120.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8o-ER-G3c">
+                        <rect key="frame" x="25" y="50" width="385" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gzR-qi-Rzi">
+                        <rect key="frame" x="425" y="45" width="51" height="31"/>
+                        <connections>
+                            <action selector="switchValueChanged:" destination="gWg-Gf-6W4" eventType="valueChanged" id="mqU-ZK-No1"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gzR-qi-Rzi" firstAttribute="centerY" secondItem="7yG-52-x1j" secondAttribute="centerY" id="HmQ-Ok-g9c"/>
+                    <constraint firstItem="gzR-qi-Rzi" firstAttribute="leading" secondItem="A8o-ER-G3c" secondAttribute="trailing" constant="15" id="KPS-Fh-JQU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="gzR-qi-Rzi" secondAttribute="trailing" id="KfD-1X-MGN"/>
+                    <constraint firstItem="gzR-qi-Rzi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="7yG-52-x1j" secondAttribute="top" constant="15" id="Odz-TJ-eWj"/>
+                    <constraint firstItem="A8o-ER-G3c" firstAttribute="leading" secondItem="7yG-52-x1j" secondAttribute="leading" constant="25" id="W0e-Xw-KlD"/>
+                    <constraint firstItem="A8o-ER-G3c" firstAttribute="centerY" secondItem="7yG-52-x1j" secondAttribute="centerY" id="pIz-2t-ahn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="switchView" destination="gzR-qi-Rzi" id="Lsq-Ua-gu0"/>
+                <outlet property="titleLabel" destination="A8o-ER-G3c" id="Ac6-Wo-dG7"/>
+            </connections>
+            <point key="canvasLocation" x="200" y="23.838080959520241"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,218 @@
+/*
+ Localizable.strings
+ PTR
+ 
+ Created by Hussein Al-Ryalat on 10/12/18.
+ Copyright © 2018 SketchMe. All rights reserved.
+ */
+
+
+
+//MARK: Tutorial
+
+"tutorial.today.first.title" = "فلنبدأ من هنا!";
+"tutorial.today.first.details" = "يمكنك من هنا رؤية التذكيرات المرتبطة بصلاة الفجر مثلاً";
+
+"tutorial.today.second.title" = "ألق نظرة على التقويم 😉";
+"tutorial.today.second.details" = "هنالك يمكنك رؤية تذكيراتك لجميع الأيام";
+
+"tutorial.reminders.title" = "ما رأيك بإضافة مذكرة جديدة؟";
+"tutorial.reminders.details" = "فلنبدأ بالضغط على هذا الزر اللطيف!";
+
+"tutorial.calendar.title" = "اسحب للأعلى لرؤية تذكيراتك لليوم الذي اخترته من التقويم!";
+
+
+//MARK: Onboarding
+
+"onboarding.welcome.title" = "مرحباً بك";
+"onboarding.welcome.description" = "رتب مهام يومك حسب أوقات الصلاة!";
+"onboarding.welcome.action_title" = "فلنبدأ";
+
+"onboarding.notifications.title" = "الإشعارات";
+"onboarding.notifications.description" = "احصل على إشعارات لجهازك للمهام التي تضيفها، سيتم حساب أوقاتها تلقائياً حسب أوقات الصلاة";
+"onboarding.notifications.action_title" = "تفعيل الإشعارات";
+"onboarding.notifications.alternative_action_title" = "تجاهل";
+"onboarding.notifications.permession_denied" = "لا يوجد صلاحية";
+"onboarding.notifications.authorized" = "تفعيل الإشعارات";
+
+"onboarding.location.title" = "الموقع";
+"onboarding.location.title_error" = "حدث خطأ ما";
+"onboarding.location.description_error" = "لا يمكن تحديد الموقع الحالي، الرجاء المحاولة لاحقاً";
+"onboarding.location.description" = "أوقات الصلاة تحسب حسب الموقع الحالي، الرجاء تفعيل خاصية الموقع لحساب أوقات الصلاة";
+"onboarding.location.action.selection" = "إختيار موقع";
+"onboarding.location.action.permession" = "حدد موقعي";
+"onboarding.location.permession_denied" = "لا يوجد صلاحية";
+"onboarding.location.action.fetching" = "تحديد الموقع..";
+"onboarding.location.action.reload" = "إعادة تحديد الموقع";
+"onboarding.location.loading_description" = "تحديد الموقع..";
+
+
+//MARK: Home Details
+"constants.home.title" = "اليوم";
+"constants.home.details" = "الصلاة التالية هي %@ ووقتها %@";
+"constants.home.details.error" = "لا يمكن إيجاد أوقات الصلاة الحالية";
+"constants.home.details.end_of_day" = "إنها نهاية اليوم 🙈";
+
+//MARK: Actions
+
+
+"actions.contact" = "تواصل";
+"actions.save" = "حفظ";
+
+//MARK: Prayers
+
+"constant.prayers.asr" = "العصر";
+"constant.prayers.dhuhr" = "الظهر";
+"constant.prayers.fajr" = "الفجر";
+"constant.prayers.isha" = "العشاء";
+"constant.prayers.maghrib" = "المغرب";
+"constant.prayers.sunrise" = "الشروق";
+
+
+// MARK: Delay
+
+"constants.delay.after" = "%@ دقائق بعد";
+"constants.delay.before" = "%@ دقائق قبل";
+"constants.delay.immeditly" = "فوراً";
+
+
+//MARK: High Latitude Rule
+
+"constants.hlr.middleOfTheNight" = "نصف الليل";
+"constants.hlr.seventhOfTheNight" = "السابع من الليل";
+"constants.hlr.twilightAngle" = "زاوية الشفق";
+
+
+//MARK: Madhab
+
+"constants.madhab.hanafi" = "الحنفي";
+"constants.madhab.shafi" = "الشافعي";
+
+// MARK: Badge Type
+
+"constants.badgeType.prayer" = "وقت الصلاة الحالية";
+"constants.badgeType.day" = "اليوم";
+"constants.badgeType.none" = "لاشيء";
+
+//MARK: Calculation Method
+
+"constants.method.egyptian" = "الهيئة المصرية العامة للمساحة";
+"constants.method.gulf" = "الخليج العربي";
+"constants.method.karachi" = "جامعة العلوم الإسلامية، كراتشي";
+"constants.method.kuwait" = "الكويت";
+"constants.method.moonsightingCommittee" = "لجنة موقع رؤية الهلال";
+"constants.method.muslimWorldLeague" = "رابطة العالم الإسلامي";
+"constants.method.northAmerica" = "الجمعية الإسلامية لأمريكا الشمالية";
+"constants.method.other" = "أخرى";
+"constants.method.qatar" = "قطر";
+"constants.method.singapore" = "سنغافورة";
+"constants.method.ummAlQura" = "جامعة أم القرى، مكة";
+
+//MARK: Repeat Days
+
+"constants.repeatDays.all" = "كل يوم";
+"constants.repeatDays.multiple" = "إعادة كل";
+"constants.repeatDays.none" = "بدون إعادة";
+"constants.repeatDays.one" = "إعادة كل %@";
+
+//MARK: Weekdays
+
+"constants.weekdays.all" = "كل يوم";
+"constants.weekdays.fri" = "الجمعة";
+"constants.weekdays.mon" = "الإثنين";
+"constants.weekdays.sat" = "السبت";
+"constants.weekdays.sun" = "الأحد";
+"constants.weekdays.thu" = "الخميس";
+"constants.weekdays.tue" = "الثلاثاء";
+"constants.weekdays.wed" = "الأربعاء";
+
+
+//MARK: Extras
+
+"extras.and" = "و";
+"extras.separator" = "،";
+"extras.smallMinutes" = "د";
+"extras.unknown" = "غير معروف";
+
+//MARK: Preferences Labels
+
+
+"labels.preferences.about" = "❤️ عن التطبيق";
+"labels.preferences.acknowledgements" = "🧐 التراخيص";
+"labels.preferences.adjustments" = "🔢 تعديل أوقات الصلاة";
+"labels.preferences.calculationMethod" = "🗝🔑طريقة الحساب ";
+"labels.preferences.feedback" = "👂🙏 شاركنا رأيك";
+"labels.preferences.highLatitudeRule" = "🤓 قاعدة خط العرض العالي";
+"labels.preferences.location" = "📍الموقع ";
+"labels.preferences.madhab" = "👳‍♂️ المذهب";
+"labels.preferences.more" = "المزيد";
+"labels.preferences.notifications" = "الإشعارات";
+"labels.preferences.notificationsIsEnabled" = "⏰ تشغيل الإشعارات";
+"labels.preferences.prayerTimes" = "أوقات الصلاة";
+"labels.preferences.rate" = "⭐️ قيّم التطبيق";
+
+
+//MARK: Titles
+
+"labels.titles.about" = "عن التطبيق";
+"labels.titles.adjustments.details" = "يمكنك تعديل أوقات الصلاة لتطابق بلدك";
+"labels.titles.adjustments.title" = "تعديل أوقات الصلاة";
+"labels.titles.calendar" = "التقويم";
+"labels.titles.newReminder.details" = "لماذا تخطط؟";
+"labels.titles.newReminder.placeholder" = "ربما لاشيء؟";
+"labels.titles.newReminder.title" = "تذكير جديد";
+"labels.titles.preferences.details" = "تحكم بالإعدادات كما تشاء ";
+"labels.titles.preferences.title" = "الإعدادات";
+"labels.titles.reminderDetails.info" = "معلومات";
+"labels.titles.reminders" = "المهام";
+"labels.titles.today" = "اليوم";
+
+
+//MARK: About
+
+"labels.titles.about.title" = "Sash";
+"labels.titles.about.subtitle" = "تذكيرات على أوقات الصلاة";
+
+//MARK: Ack Titles
+
+"labels.titles.acks.icons" = "الأيقونات";
+"labels.titles.acks.iconsDetails" = "من Noun Project";
+"labels.titles.acks.libraries" = "المكتبات";
+"labels.titles.acks.title" = "التراخيص";
+
+//MARK: Notifications
+
+"notifications.reminders.actions.complete" = "إتمام";
+"notifications.reminders.actions.skip" = "تخطي";
+
+"notifications.reminders.details.after" = "%@ دقائق بعد %@";
+"notifications.reminders.details.before" = "%@ دقائق قبل %@";
+"notifications.reminders.details.immeditly" = "على وقت %@";
+
+//MARK: Placeholders
+
+"placeholders.details" = "لماذا لا تبدأ بإضافة مهمة جديدة؟";
+"placeholders.title" = "يبدو أنه لا يوجد شيء هنا 👀";
+
+/// MARK: Selection Sessions
+
+"sessions.hlr.details" = "اختر قاعدة لحساب أوقات الفجر والعشاء في المواقع ذات خط العرض العالي";
+"sessions.hlr.title" = "قاعدة خطوط العرض العالية";
+
+"sessions.madhab.details" = "لحساب زاوية العصر";
+"sessions.madhab.title" = "المذهب";
+
+"sessions.method.details" = "كيفية حساب أوقات الصلاة";
+"sessions.method.title" = "طريقة الحساب";
+
+"sessions.prayer.details" = "في أي وقت من أوقات الصلاة تريد إضافة التذكير؟";
+"sessions.prayer.title" = "اختر وقت الصلاة";
+
+"sessions.repeatDays.details" = "في أي أيام من الأسبوع تريد التذكير؟";
+"sessions.repeatDays.title" = "اختر أيام الإعادة";
+
+"sessions.shiftInterval.details" = "تغيير وقت التذكير بإزاحته قليلاً";
+"sessions.shiftInterval.title" = "الوقت";
+
+"sessions.badgeType.title" = "إظهار رقم الإشعارات على حافة التطبيق ل";
+"sessions.badgeType.details" = "عداد الإشعارات يمثل عدد التذكيرات الغير مكتملة";

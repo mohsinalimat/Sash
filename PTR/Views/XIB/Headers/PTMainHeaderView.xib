@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="90c-nb-jjn" customClass="PTMainHeaderView" customModule="PTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="496" height="218"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEf-Cz-uV8">
+                    <rect key="frame" x="25" y="137" width="456" height="42"/>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="35"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9d-ya-eaa">
+                    <rect key="frame" x="25" y="182" width="456" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-uc-zPO">
+                    <rect key="frame" x="0.0" y="0.0" width="496" height="20"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="X3C-9H-kj4"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="d9d-ya-eaa" firstAttribute="top" secondItem="hEf-Cz-uV8" secondAttribute="bottom" constant="3" id="7sc-X7-gse"/>
+                <constraint firstItem="m2M-uc-zPO" firstAttribute="leading" secondItem="dBe-mQ-ybA" secondAttribute="leading" id="9wK-wo-bgU"/>
+                <constraint firstItem="d9d-ya-eaa" firstAttribute="leading" secondItem="hEf-Cz-uV8" secondAttribute="leading" id="Crk-UK-dcN"/>
+                <constraint firstItem="m2M-uc-zPO" firstAttribute="centerX" secondItem="90c-nb-jjn" secondAttribute="centerX" id="H2k-El-0cv"/>
+                <constraint firstItem="dBe-mQ-ybA" firstAttribute="bottom" secondItem="d9d-ya-eaa" secondAttribute="bottom" constant="15" id="LIK-Gl-3o0"/>
+                <constraint firstItem="m2M-uc-zPO" firstAttribute="top" secondItem="dBe-mQ-ybA" secondAttribute="top" id="NHG-9A-YGU"/>
+                <constraint firstItem="d9d-ya-eaa" firstAttribute="centerX" secondItem="hEf-Cz-uV8" secondAttribute="centerX" id="Zyy-gf-fp6"/>
+                <constraint firstItem="dBe-mQ-ybA" firstAttribute="trailing" secondItem="hEf-Cz-uV8" secondAttribute="trailing" constant="15" id="dY5-FM-7Ma"/>
+                <constraint firstItem="hEf-Cz-uV8" firstAttribute="leading" secondItem="90c-nb-jjn" secondAttribute="leading" constant="25" id="f8B-py-K9S"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="dBe-mQ-ybA"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="maximumContentHeight">
+                    <real key="value" value="120"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="minimumContentHeight">
+                    <real key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="contentShrinks" value="YES"/>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="contentExpands" value="YES"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="expansionMode">
+                    <integer key="value" value="0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="contentAnchor">
+                    <integer key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="leadingConstraint" destination="f8B-py-K9S" id="53Y-mC-8UY"/>
+                <outlet property="subtitleLabel" destination="d9d-ya-eaa" id="S3Q-15-sXf"/>
+                <outlet property="titleLabel" destination="hEf-Cz-uV8" id="Czg-2q-gVH"/>
+                <outlet property="topView" destination="m2M-uc-zPO" id="LXm-1R-Ovg"/>
+                <outlet property="topViewHeightConstraint" destination="X3C-9H-kj4" id="eu3-aH-h65"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="-161.01949025487258"/>
+        </view>
+    </objects>
+</document>

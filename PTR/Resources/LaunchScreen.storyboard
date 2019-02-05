@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansArabicUI-Bold.ttf">
+            <string>NotoSansArabicUI-Bold</string>
+        </array>
+        <array key="NotoSansArabicUI-Regular.ttf">
+            <string>NotoSansArabicUI-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1II-Mh-3af">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Round-2" translatesAutoresizingMaskIntoConstraints="NO" id="sMT-zQ-Vm6">
+                                        <rect key="frame" x="100" y="169.5" width="175" height="175"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sMT-zQ-Vm6" secondAttribute="height" multiplier="1:1" id="v38-x0-Zh8"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="500" id="xla-X0-vK7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08T-J1-JJd">
+                                        <rect key="frame" x="26.5" y="359.5" width="322.5" height="48"/>
+                                        <fontDescription key="fontDescription" name="NotoSansArabicUI-Bold" family="Noto Sans Arabic UI" pointSize="35"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reminders based on Prayer Times" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nid-11-m8j">
+                                        <rect key="frame" x="26.5" y="410.5" width="322.5" height="29"/>
+                                        <color key="tintColor" white="0.72855415239726018" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="NotoSansArabicUI-Regular" family="Noto Sans Arabic UI" pointSize="21"/>
+                                        <color key="textColor" white="0.65850729974981859" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Nid-11-m8j" firstAttribute="centerX" secondItem="08T-J1-JJd" secondAttribute="centerX" id="CCN-J2-WKS"/>
+                                    <constraint firstItem="Nid-11-m8j" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="1II-Mh-3af" secondAttribute="leading" constant="15" id="LMx-tP-hxI"/>
+                                    <constraint firstItem="08T-J1-JJd" firstAttribute="leading" secondItem="Nid-11-m8j" secondAttribute="leading" id="Qh9-VA-Chm"/>
+                                    <constraint firstItem="Nid-11-m8j" firstAttribute="top" secondItem="08T-J1-JJd" secondAttribute="bottom" constant="3" id="RAe-dU-e2S"/>
+                                    <constraint firstItem="sMT-zQ-Vm6" firstAttribute="leading" secondItem="1II-Mh-3af" secondAttribute="leading" priority="999" constant="100" id="ayX-Lv-qbh"/>
+                                    <constraint firstItem="08T-J1-JJd" firstAttribute="centerX" secondItem="sMT-zQ-Vm6" secondAttribute="centerX" id="c7T-VB-qsN"/>
+                                    <constraint firstItem="08T-J1-JJd" firstAttribute="top" secondItem="sMT-zQ-Vm6" secondAttribute="bottom" constant="15" id="iBS-d2-F4f"/>
+                                    <constraint firstItem="08T-J1-JJd" firstAttribute="centerY" secondItem="1II-Mh-3af" secondAttribute="centerY" constant="50" id="qgj-BV-N5W"/>
+                                    <constraint firstItem="sMT-zQ-Vm6" firstAttribute="centerX" secondItem="1II-Mh-3af" secondAttribute="centerX" id="yiq-LK-yP8"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1II-Mh-3af" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="AEB-Pg-m2e"/>
+                            <constraint firstItem="1II-Mh-3af" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FDH-zE-LkP"/>
+                            <constraint firstItem="1II-Mh-3af" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Lc2-lo-MrJ"/>
+                            <constraint firstItem="1II-Mh-3af" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="v0B-q3-PUZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Round-2" width="1000" height="1000"/>
+    </resources>
+</document>
